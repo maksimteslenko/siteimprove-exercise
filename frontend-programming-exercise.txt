@@ -1,0 +1,20 @@
+﻿Frontend Programming Exercise - Brains
+
+Exercise repository
+
+Data endpoints:
+ - http://assignment.siteimprove.com/api/persons
+ - http://assignment.siteimprove.com/api/persondetails/1 (2, 3 etc)
+Wireframe: http://assignment.siteimprove.com/wireframe.png
+
+General requirements for the exercise solutions
+ - Must support all the major browsers, IE from version 9 and above.
+
+Exercise - Create a responsive table
+ - Populate a table using the above endpoints.
+ - When the data is loading into the table, show a loading spinner made entirely of CSS code.
+ - Put in a deliberate delay of 3 seconds on the table loading (so we can see the loading spinner)
+ - Put in a deliberate delay of 3 seconds on loading the details of the first row only (so we can see the loading spinner)
+ - The table must indicate that it is possible to expand the “Children” column cell. Doing this should expand a new table inside the existing table with the new data.
+ - When the screen width gets below 900 px, hide the "Profession" column.
+ - Please feel free to impress us with your coding skills.
